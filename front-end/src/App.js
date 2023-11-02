@@ -8,7 +8,10 @@ import { Portfolio } from './components/Portfolio/Portfolio';
 import { Experience } from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
 
+
 function App() {
+
+
     return (
         <div>
             <NavBar />
