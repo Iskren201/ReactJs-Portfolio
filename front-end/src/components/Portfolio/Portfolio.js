@@ -23,7 +23,6 @@ export const Portfolio = () => {
         },
 
     ];
-
     return (
         <div
             name="portfolio"
