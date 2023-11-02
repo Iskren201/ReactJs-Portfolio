@@ -21,10 +21,10 @@ const About = () => {
           Hi, I'm Iskren Iliev, Information Technology student at New Bulgarian
           University for the third year. I have 1-year experience as front-end
           developer and proficient in JavaScript, HTML, CSS, ReactJS, Tailwind
-          CSS, GitHub, Linux, Windows, Postman and Node. js. I aim for
+          CSS, GitHub, Linux, Windows, Postman and NodeJs. I aim for
           professional development in the field and strive to become Full-stack
           developer. I don't currently have work experience in the field, but i
-          have educated myself by taking courses at Softini and working on
+          have educated myself by taking courses at Softuni and working on
           independent projects. My strengths include working well in team,
           responsibility and ambition. I'm working hard to expand their skills
           and achieve excellent results in every task, with that I encounter.
