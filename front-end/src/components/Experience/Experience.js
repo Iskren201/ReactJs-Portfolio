@@ -4,10 +4,11 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
 import reactImage from "../../assets/react.png";
-import nextjs from "../../assets/nextjs.png";
-import graphql from "../../assets/graphql.png";
+import nodeJsimg from "../../assets/node.png";
+import postman from "../../assets/postman.png";
 import github from "../../assets/github.png";
 import tailwind from "../../assets/tailwind.png";
+import postMan from "../../assets/postman.png";
 
 export const Experience = () => {
   const techs = [
@@ -37,34 +38,35 @@ export const Experience = () => {
     },
     {
       id: 5,
-      src: nextjs,
-      title: "NextJs",
-      style: "shadow-white",
+      src: nodeJsimg,
+      title: "NodeJs",
+      style: "shadow-green-600",
     },
+
     {
       id: 6,
-      src: graphql,
-      title: "GraphQl",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 7,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 8,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
+    },
+    {
+      id: 8,
+      src: postMan,
+      title: "Postman",
+      style: "shadow-orange-400",
     },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-700 via-slate-800 to-gray-800 w-full h-screen"
+      className="bg-gradient-to-b from-gray-700 via-slate-800 to-gray-800 w-full h-screen pt-8"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
