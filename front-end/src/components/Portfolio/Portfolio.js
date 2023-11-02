@@ -1,39 +1,27 @@
 import React from "react";
 
-import arrayDestruck from "../../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../../assets/portfolio/installNode.jpg";
-import navbar from "../../assets/portfolio/navbar.jpg";
-import reactParallax from "../../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../../assets/portfolio/reactWeather.jpg";
+import Safia from "../../assets/portfolio/Safia.png";
+import tailwindProject from "../../assets/portfolio/tailwindProject.png";
+import MovieCorn from "../../assets/portfolio/MovieCorn.png";
+
 
 export const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruck,
-            link: "https://github.com/Iskren201/Hiden-Project/tree/main/safia-website",
+            src: Safia,
+            link: "https://github.com/Iskren201/LinkToMyProject/tree/main/safia-website",
         },
         {
             id: 2,
-            src: reactParallax,
-        },
-        {
+            src: tailwindProject,
+            link: "https://github.com/Iskren201/LinkToMyProject/tree/main/Tailwind-Project",
+        }, {
             id: 3,
-            src: navbar,
+            src: MovieCorn,
+            link: "https://github.com/Iskren201/LinkToMyProject/tree/main/movie-search-app",
         },
-        {
-            id: 4,
-            src: reactSmooth,
-        },
-        {
-            id: 5,
-            src: installNode,
-        },
-        {
-            id: 6,
-            src: reactWeather,
-        },
+
     ];
 
     return (
